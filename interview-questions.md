@@ -7,15 +7,17 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What are props in React?
 
-  Your answer:
+  Your answer: In React, props allows the state of a parent class to pass data to the child classes. For example, when I was working on tic-tac-toe game I used props to pass a click-counting method to a child component.
 
   Researched answer:
+
+  Props are an instance of a state that are passed to components that serve the purpose of displaying information or letting a user interact with information. Once props are in the component, they cannot be modified. Props are public facing information whereas state is more privately held information.
 
 
 
 2. What is a DOM event?
 
-  Your answer:
+  Your answer: I know that DOM is Document Object Model so I would surmise that a DOM event is something that happens within a DOM. For example, I have coded some apps that count the number of user clicks that happen in a div element. 
 
   Researched answer:
 

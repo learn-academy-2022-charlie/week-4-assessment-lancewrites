@@ -11,7 +11,7 @@ num3 = 221
 # Expected output: '221 is odd'
 
 def even_or_odd number
-    if number%2 == 0
+    if number.even?
         "#{number} is even"
     else
         "#{number} is odd"
@@ -33,7 +33,7 @@ album3 = 'Abbey Road'
 # Expected output: 'bby Rd'
 
 def no_vowel string
-    string.delete"aeiou"
+    string.delete"aeiouAEIOU"
     
 end
 
